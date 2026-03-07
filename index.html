@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Торты на заказ в городе — авторские десерты за 24 часа</title>
+  <meta name="description" content="Торты на заказ: классические, муссовые, детские и свадебные. Вес от 1 кг, расчёт цены, сроки изготовления от 24 часов. Оформите заказ онлайн.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">
+        <span class="logo__mark">sweet</span>
+        <span class="logo__text">atelier</span>
+      </div>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#hero" class="nav__link">Главная</a>
+        <a href="#catalog" class="nav__link">Виды тортов</a>
+        <a href="#pricing" class="nav__link">Цены</a>
+        <a href="#process" class="nav__link">Как работаем</a>
+        <a href="#order" class="nav__link nav__link--accent">Заказать</a>
+      </nav>
+      <button class="burger" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Блок 1. Hero -->
+    <section class="section hero" id="hero" aria-label="Главный блок">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Авторские торты на заказ</p>
+          <h1 class="hero__title">
+            Торт, сделанный <span class="hero__highlight">лично для вас</span>
+            за&nbsp;24&nbsp;часа
+          </h1>
+          <p class="hero__subtitle">
+            Под ваш праздник и вкус: подберу начинку, дизайн и вес.
+            Отправлю эскиз перед приготовлением, чтобы вы были уверены в результате.
+          </p>
+          <ul class="hero__bullets">
+            <li>от 1 до 7 кг — расчёт цены сразу</li>
+            <li>натуральные ингредиенты, без масс-маркета</li>
+            <li>доставка по городу и самовывоз</li>
+          </ul>
+          <div class="hero__cta">
+            <a href="#order" class="btn btn--primary">Рассчитать торт</a>
+            <button class="btn btn--ghost" data-scroll="#catalog">Посмотреть варианты</button>
+          </div>
+          <div class="hero__trust">
+            <div class="hero__badge">
+              <span class="hero__badge-number">350+</span>
+              <span class="hero__badge-text">собранных праздников</span>
+            </div>
+            <div class="hero__badge">
+              <span class="hero__badge-number">4.9</span>
+              <span class="hero__badge-text">оценка по отзывам</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__cake-card">
+            <div class="hero__cake-glow"></div>
+            <div class="hero__cake">
+              <div class="hero__cake-layer hero__cake-layer--top"></div>
+              <div class="hero__cake-layer hero__cake-layer--middle"></div>
+              <div class="hero__cake-layer hero__cake-layer--bottom"></div>
+              <div class="hero__cake-deco hero__cake-deco--left"></div>
+              <div class="hero__cake-deco hero__cake-deco--right"></div>
+              <div class="hero__sparkles">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+            <div class="hero__note">
+              <p>Соберу торт под ваш референс или предложу свой эскиз.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 2. Каталог видов тортов -->
+    <section class="section section--tinted" id="catalog" aria-label="Виды тортов">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Торты под любой повод</h2>
+          <p class="section__subtitle">
+            Выберите тип, а начинку и дизайн мы подстроим под ваши предпочтения.
+          </p>
+        </header>
+        <div class="cards cards--catalog">
+          <article class="card">
+            <div class="card__tag">Самые популярные</div>
+            <h3 class="card__title">Классические бисквитные</h3>
+            <p class="card__text">
+              Нежный бисквит, крем-чиз, ягодные прослойки. Подходит для дней рождения, корпоративов и семейных праздников.
+            </p>
+            <ul class="card__list">
+              <li>от 1 до 5 кг</li>
+              <li>от 2 400 ₽ / кг</li>
+              <li>простые и сложные формы</li>
+            </ul>
+          </article>
+
+          <article class="card card--accent">
+            <div class="card__tag">Эффект «вау»</div>
+            <h3 class="card__title">Муссовые и зеркальные</h3>
+            <p class="card__text">
+              Лёгкая текстура, яркий внешний вид, идеально ровное покрытие. Для стильных праздников и фотосессий.
+            </p>
+            <ul class="card__list">
+              <li>от 1.2 до 4 кг</li>
+              <li>от 2 900 ₽ / кг</li>
+              <li>градиенты, потёки, топперы</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card__tag">Для детей</div>
+            <h3 class="card__title">Тематиеские и фигурные</h3>
+            <p class="card__text">
+              Любимые герои, цифры, животные, 3D-декор. Безопасные красители и продуманный сладкий баланс.
+            </p>
+            <ul class="card__list">
+              <li>от 2 до 7 кг</li>
+              <li>от 2 800 ₽ / кг</li>
+              <li>декор из мастики или пряников</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 3. Вес и цены -->
+    <section class="section" id="pricing" aria-label="Цены и вес тортов">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Сколько стоит ваш торт</h2>
+          <p class="section__subtitle">
+            Ниже — ориентировочные цены. Точную стоимость посчитаю после пары вопросов о вашем празднике.
+          </p>
+        </header>
+        <div class="pricing">
+          <div class="pricing__table">
+            <div class="pricing__row pricing__row--head">
+              <span>Вес</span>
+              <span>На сколько гостей</span>
+              <span>Ориентировочная цена</span>
+            </div>
+            <div class="pricing__row">
+              <span>1–1.5 кг</span>
+              <span>до 6 человек</span>
+              <span>от 2 400–3 600 ₽</span>
+            </div>
+            <div class="pricing__row">
+              <span>2–3 кг</span>
+              <span>8–15 человек</span>
+              <span>от 4 800–7 500 ₽</span>
+            </div>
+            <div class="pricing__row">
+              <span>4–5 кг</span>
+              <span>16–22 человека</span>
+              <span>от 9 600–12 500 ₽</span>
+            </div>
+            <div class="pricing__row">
+              <span>6–7 кг</span>
+              <span>до 30 человек</span>
+              <span>от 14 000 ₽</span>
+            </div>
+          </div>
+          <aside class="pricing__side">
+            <h3 class="pricing__title">Что влияет на цену</h3>
+            <ul class="pricing__list">
+              <li>выбор начинки (ягоды, орехи, алкогольные нотки)</li>
+              <li>сложность декора и объём ручной работы</li>
+              <li>сроки изготовления (от 24 часов, срочно — дороже)</li>
+              <li>доставка или самовывоз</li>
+            </ul>
+            <p class="pricing__note">
+              <strong>Прозрачный расчёт:</strong> перед началом работы вы получаете финальную стоимость и эскиз.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 4. Как я работаю -->
+    <section class="section section--tinted" id="process" aria-label="Как проходит заказ">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">От заявки до торта на столе</h2>
+          <p class="section__subtitle">
+            Делюсь этапами, чтобы вы понимали, что происходит на каждом шаге.
+          </p>
+        </header>
+        <div class="steps">
+          <div class="step">
+            <div class="step__number">1</div>
+            <h3 class="step__title">Заявка и уточнение деталей</h3>
+            <p class="step__text">
+              Оставляете запрос на сайте. Я спрашиваю о дате, количестве гостей, вкусовых предпочтениях, референсах по дизайну.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step__number">2</div>
+            <h3 class="step__title">Эскиз и точная смета</h3>
+            <p class="step__text">
+              Предлагаю 1–2 варианта оформления, согласовываем вес и начинку. Вы получаете финальную цену без скрытых доплат.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step__number">3</div>
+            <h3 class="step__title">Приготовление и фотоотчёт</h3>
+            <p class="step__text">
+              Готовлю торт в согласованный срок, присылаю фото перед отправкой. При необходимости — вношу мелкие правки в декор.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step__number">4</div>
+            <h3 class="step__title">Доставка и ваш праздник</h3>
+            <p class="step__text">
+              Доставляю по городу или готовлю к самовывозу. Даю рекомендации по хранению и подаче, чтобы торт выглядел идеально на фото.
+            </p>
+          </div>
+        </div>
+        <div class="guarantee">
+          <h3 class="guarantee__title">Гарантии качества</h3>
+          <ul class="guarantee__list">
+            <li>работаю только с проверенными поставщиками продуктов</li>
+            <li>не использую готовые смеси и растительные сливки</li>
+            <li>если что-то идёт не по плану — сообщаю заранее и предлагаю решение</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок 5. Форма заказа -->
+    <section class="section section--last" id="order" aria-label="Форма заказа торта">
+      <div class="container order">
+        <div class="order__info">
+          <header class="section__header section__header--left">
+            <h2 class="section__title">Оставьте заявку — предложу 2–3 варианта торта под ваш бюджет</h2>
+            <p class="section__subtitle">
+              Отвечу в течение 30 минут в рабочее время. Если нужно срочно — отметьте это в комментарии.
+            </p>
+          </header>
+          <ul class="order__bullets">
+            <li>подбор вкуса и дизайна под ваш запрос</li>
+            <li>расчёт точной стоимости перед готовкой</li>
+            <li>бронирование даты в календаре</li>
+          </ul>
+          <div class="order__reviews">
+            <p class="order__quote">
+              «Торт оказался ещё красивее, чем на картинке. Гости спрашивали контакты кондитера!»
+            </p>
+            <p class="order__author">— Мария, торт на 30-летие</p>
+          </div>
+        </div>
+
+        <div class="order__form-wrapper">
+          <form class="form" id="orderForm" novalidate>
+            <div class="form__row">
+              <label class="form__field">
+                <span class="form__label">Ваше имя *</span>
+                <input type="text" name="name" required placeholder="Например, Анна">
+                <span class="form__error" data-error-for="name"></span>
+              </label>
+            </div>
+            <div class="form__row form__row--split">
+              <label class="form__field">
+                <span class="form__label">Телефон *</span>
+                <input type="tel" name="phone" required placeholder="+7 (___) ___-__-__">
+                <span class="form__error" data-error-for="phone"></span>
+              </label>
+              <label class="form__field">
+                <span class="form__label">Удобный мессенджер</span>
+                <select name="messenger">
+                  <option value="">Не важно</option>
+                  <option value="whatsapp">WhatsApp</option>
+                  <option value="telegram">Telegram</option>
+                  <option value="phone">Звонок</option>
+                </select>
+              </label>
+            </div>
+            <div class="form__row form__row--split">
+              <label class="form__field">
+                <span class="form__label">Дата праздника *</span>
+                <input type="date" name="date" required>
+                <span class="form__error" data-error-for="date"></span>
+              </label>
+              <label class="form__field">
+                <span class="form__label">Примерный вес</span>
+                <select name="weight">
+                  <option value="">Выберите</option>
+                  <option value="1-1.5">1–1.5 кг</option>
+                  <option value="2-3">2–3 кг</option>
+                  <option value="4-5">4–5 кг</option>
+                  <option value="6-7">6–7 кг</option>
+                </select>
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="form__field">
+                <span class="form__label">Опишите ваш торт *</span>
+                <textarea name="details" rows="3" required placeholder="Повод, желаемый вкус, дизайн или ссылка на пример"></textarea>
+                <span class="form__error" data-error-for="details"></span>
+              </label>
+            </div>
+            <div class="form__row form__row--checkbox">
+              <label class="form__checkbox">
+                <input type="checkbox" name="urgent">
+                <span>Нужно срочно (меньше 48 часов до праздника)</span>
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="form__checkbox">
+                <input type="checkbox" name="policy" required>
+                <span>Согласен(а) на обработку персональных данных *</span>
+              </label>
+              <span class="form__error" data-error-for="policy"></span>
+            </div>
+            <div class="form__actions">
+              <button type="submit" class="btn btn--primary btn--full">
+                Получить расчёт и эскиз
+              </button>
+              <p class="form__hint">
+                Нажимая на кнопку, вы не обязуетесь делать заказ. Сначала обсудим детали и бюджет.
+              </p>
+            </div>
+            <div class="form__success" id="formSuccess" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__brand">Кондитер «Sweet Atelier»</p>
+      <p class="footer__meta">Изготавливаю торты на заказ по предварительной заявке. Не являюсь кафе или магазином.</p>
+      <p class="footer__contacts">Тел.: <a href="tel:+79990000000">+7 (999) 000-00-00</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -4,7 +4,7 @@
 
 ## 🔗 Ссылки
 
-- **Live demo:** https://sayomiyori.github.io/cakesLanding/
+- **Live демо:** https://sayomiyori.github.io/cakesLanding/
 - **Репозиторий:** `https://github.com/sayomiyori/cakesLanding`
 
 ## Оффер и концепция
